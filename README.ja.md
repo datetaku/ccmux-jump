@@ -38,6 +38,8 @@ ccmux 本体の変更や WezTerm の Lua 設定追加は不要です。ccmux と
 | ccmux | `ccmux show --json` が動作すること。1.4.3 で検証 |
 | WezTerm | Windows CLI の `list`、`activate-pane`、`spawn` が使えること |
 
+現在、開発・実機検証には **WezTerm nightly** を使用しています。
+
 依存ツールはそれぞれの公式手順で導入してください。ccmux を Bun で実行する構成では
 Bun も必要です。ポップアップの PATH から `python3`、`tmux`、`fzf`、`ccmux` が見える必要があります。
 

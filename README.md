@@ -41,6 +41,8 @@ Agent discovery and status accuracy come from ccmux.
 | ccmux | Working `ccmux show --json`; tested with 1.4.3 |
 | WezTerm | Windows CLI with `list`, [`activate-pane`](https://wezterm.org/cli/cli/activate-pane.html), and [`spawn`](https://wezterm.org/cli/cli/spawn.html) |
 
+The development and manual test environment currently uses **WezTerm nightly**.
+
 Install the dependencies first, following their upstream instructions. ccmux's
 Bun-based installation also requires Bun. All of `python3`, `tmux`, `fzf`, and
 `ccmux` must be accessible from the tmux popup's `PATH`.
