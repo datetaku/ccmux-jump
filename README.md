@@ -2,6 +2,14 @@
 
 [日本語](README.ja.md)
 
+I started working on several development tasks in parallel with AI agents, and
+found myself losing track of which agent was doing what, and in which directory.
+I built this to check their status in one place and return to the right terminal
+tab when needed.
+
+It grew out of my own Windows + WSL + WezTerm + tmux setup. The supported
+environment is quite specific, but I hope it helps someone working in a similar way.
+
 Find an AI coding agent in a tmux popup and jump to its existing WezTerm tab,
 keeping the source tab attached to its original tmux session.
 
